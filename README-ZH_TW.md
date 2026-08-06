@@ -1,3 +1,4 @@
+## 以下是原版PCL CE的说明文件（同样适用）所谓的Plain-Craft-Launcher-Clock是二次修改版
 [简体中文](README.md) | [English](README-EN.md) | **繁體中文**
 
 <div align="center">
@@ -71,3 +72,36 @@ PCL CE 始終建議使用最新版本的作業系統以獲得最佳體驗。
 ## ❤️ 貢獻者
 
 [![](https://contrib.rocks/image?repo=PCL-Community/PCL-CE)](https://github.com/PCL-Community/PCL-CE/graphs/contributors)
+
+
+## 正式说明页
+ **项目名称**：Plain Craft Launcher Clock
+- **原作者**：龙腾猫跃，https://afdian.com/a/LTCat
+- **开源义务**：本仓库代码完全公开，任何修改、分发必须同样遵守上述许可证条款。
+- **非官方性**：不得以任何方式暗示原作者为您背书或认可此修改版。
+- ## 免责声明
+
+代码可能存在错误，也不保证运行稳定。使用风险自负
+温馨提示：请不要在别的网站下载PCL或PCL CE！！！有盗号风险。
+PCL下载地址：https://afdian.com/a/LTCat
+PCL CE下载地址：https://pclce-web.demo.fis.ink/
+如果你也喜欢Minecraft，不妨购买正版和伙伴们一起游玩吧
+## 不是原版的PCL CE/PCL是修改版！
+## 它只是为原来的PCL CE 添加了jar服务器启动的功能
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
