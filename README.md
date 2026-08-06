@@ -12,12 +12,13 @@ This is a project to add brand-new features to the Plain Craft Launcher (PCL CE)
 - 
 ## 免责声明
 
-本版本为实验性测试版，代码可能存在错误，**不保证能成功编译成可执行文件**，也不保证运行稳定。使用风险自负。这个项目不是单单Minecraft启动器，还可以启动服务器
+代码可能存在错误。使用风险自负。这个项目不是单单Minecraft启动器，还可以启动服务器
 温馨提示：请不要在别的网站下载PCL或PCL CE！！！有盗号风险。
 PCL下载地址：https://afdian.com/a/LTCat
 PCL CE下载地址：https://pclce-web.demo.fis.ink/
 如果你也喜欢Minecraft，不妨购买正版和伙伴们一起游玩吧
-《PCL 分发有限许可》
+
+## 《PCL 分发有限许可》
 
 版权所有 © 成都瓜皮龙科技有限公司（以下简称 “许可方”）。
 除本许可明确授予的权利外，许可方保留软件及其相关知识产权中的全部权利。
