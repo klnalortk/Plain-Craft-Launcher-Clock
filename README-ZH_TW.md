@@ -88,7 +88,7 @@ PCL CE下载地址：https://pclce-web.demo.fis.ink/
 如果你也喜欢Minecraft，不妨购买正版和伙伴们一起游玩吧
 ## 不是原版的PCL CE/PCL是修改版！
 ## 它只是为原来的PCL CE 添加了jar服务器启动的功能
-
+This is a project to add brand-new features to the Plain Craft Launcher (PCL CE)! It’s designed to launch servers or any executable .jar files, and it integrates server startup directly into PCL.
 
 
 
