@@ -1,89 +1,73 @@
-# Plain-Craft-Launcher-Clock
-This is a project to add brand-new features to the Plain Craft Launcher (PCL CE)! It’s designed to launch servers or any executable .jar files, and it integrates server startup directly into PCL.
-# Plain Craft Launcher (PCL) - Clock
+**简体中文** | [English](README-EN.md) | [繁體中文](README-ZH_TW.md)
 
-> ** 本版本是第三方基于 PCL（Plain Craft Launcher）独立二次开发的非官方测试版，与原作者“龙腾猫跃”及官方项目无任何直接关联。**
+<div align="center">
 
-## 声明
+<img src="Plain Craft Launcher 2/Images/icon.ico" alt="Logo" width="80" height="80">
 
-- **项目名称**：Plain Craft Launcher Clock
-- **原作者**：龙腾猫跃，https://afdian.com/a/LTCat
-- **开源**：本仓库代码完全公开，任何修改、分发必须同样遵守下述许可证条款。
-- 
-## 免责声明
+# PCL Community Edition
 
-代码可能存在错误。使用风险自负。这个项目不是单单Minecraft启动器，还可以启动服务器
-温馨提示：请不要在别的网站下载PCL或PCL CE！！！有盗号风险。
-PCL下载地址：https://afdian.com/a/LTCat
-PCL CE下载地址：https://pclce-web.demo.fis.ink/
-如果你也喜欢Minecraft，不妨购买正版和伙伴们一起游玩吧
+[![Stars](https://img.shields.io/github/stars/PCL-Community/PCL-CE?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=stars&labelColor=444444&color=eac54f)](https://github.com/PCL-Community/PCL-CE/)
+![GitHub Release](https://img.shields.io/github/v/release/PCL-Community/PCL-CE?label=release&logo=github&style=for-the-badge)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/PCL-Community/PCL-CE/build-test.yml?style=for-the-badge)
 
-## 《PCL 分发有限许可》
+[![Issues](https://img.shields.io/github/issues/PCL-Community/PCL-CE?style=for-the-badge&label=issues&labelColor=444444&color=1F883D&logo=github)](https://github.com/PCL-Community/PCL-CE/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/PCL-Community/PCL-CE?style=for-the-badge&label=pull%20requests&labelColor=444444&color=1F883D&logo=github)](https://github.com/PCL-Community/PCL-CE/pulls)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/PCL-Community/PCL-CE/total?style=for-the-badge)
+[![哔哩哔哩](https://img.shields.io/badge/动态-bilibili-00A4DB?style=for-the-badge&labelColor=444444&logo=bilibili)](https://space.bilibili.com/3546847192811755/dynamic) <br />
 
-版权所有 © 成都瓜皮龙科技有限公司（以下简称 “许可方”）。
-除本许可明确授予的权利外，许可方保留软件及其相关知识产权中的全部权利。
+<a href="https://trendshift.io/repositories/21800?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-21800" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/21800/weekly?language=C%23" alt="PCL-Community%2FPCL-CE | Trendshift" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/21800" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/21800" alt="PCL-Community%2FPCL-CE | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-一、定义
+[社区版下载](https://github.com/PCL-Community/PCL-CE/releases/latest) |
+[上游存储库](https://github.com/Meloong-Git/PCL)
 
-“软件” 是指 Plain Craft Launcher（以下简称 “PCL”）及许可方有权许可的相关源代码、二进制文件、资源文件、文档和随附内容。软件不包括已明确标注为第三方内容的部分，本许可亦不限制第三方内容原有许可证所明确授予的权利。
-“原样副本” 是指未经任何方式改变的软件副本。传输、存储、镜像、压缩或解压原样副本，不视为改变。
-“收费” 是指以获得、下载、复制、分发、安装、预装或使用原样副本为对价或条件，直接或间接向接收者收取费用，包括但不限于付费下载、会员访问门槛、强制赞助或其他变相收费方式。承载平台通过与获得原样副本无直接对应关系的一般广告、一般赞助、平台服务或其他独立业务取得收入，不视为收费。
-本许可适用于对软件进行复制、分发或其他被明确授权的行为。您行使本许可明确授予的任何权利，即表示同意遵守本许可。
+[提交问题](https://github.com/PCL-Community/PCL-CE/issues/new/choose) |
+[贡献指南](https://github.com/PCL-Community/PCL-CE/wiki/开发指南)
 
-二、权利
+</div>
 
-在持续不收费的前提下，许可方授予您一项全球范围内、非排他、免版税、不得再许可的有限许可：您可以存储、镜像、备份、上传、下载、向公众提供、传播和再分发原样副本。
-每一位从您处获得原样副本的接收者，均可在遵守本许可的前提下，直接从许可方获得本许可明确授予的相应权利。
+PCL CE 是基于 PCL 开源代码二次开发的社区版本，包括了主线暂未制作的功能和改进！
 
-————————————————————————————————————
+社区版的版本号与主线并非严格对应关系，也请不要向官方仓库反馈社区版问题。
 
-《PCL 存储库合理使用指南》
+欢迎大家来用用看！
 
-本指南仅作为说明，不是法律文件或协议。
-除《PCL 分发有限许可》明确授予的权利外，开发者保留软件及其相关知识产权中的全部权利。但开发者承诺，在遵守本指南，且善意、合理使用的情况下，不会追究责任。
+**开发群:** [599620549](https://qm.qq.com/q/PNQA4Md8wc)[✦](https://t.me/+78XW2bUOvKJjMTZl) | **用户 1 群:** [1028074835](https://qm.qq.com/q/qrMGJo8BQQ) | **用户 2 群:** [1070029541](https://qm.qq.com/q/lBywbDMWhG)
 
-一、轻度使用
+## 💻 支持平台
 
-若您仅参考了本存储库中极小部分的内容，或您在制作与 PCL 的实质功能不存在任何重叠的软件，则为轻度使用。
-其常见情形例如：
-· 使用或参考存储库中极小部分的内容，来开发启动器或其他软件。
-· 虽参考了较大量的内容，但制作的软件与 PCL 的实质功能不存在任何重叠。
+| 操作系统 | 支持情况 | 环境要求 |
+|---|---|---|
+| Windows 10 1809 (17763) 或更高 | ✅ 完整支持 | [.NET 10 Desktop Runtime](https://get.dot.net/10) |
+| Windows 8 - Windows 10 1809 (17763) | ⚠️ 理论能跑，酌情提供社区支持 | [.NET 10 Desktop Runtime](https://get.dot.net/10) |
+| Windows 7 或更低版本 | ❌ 不支持 | / |
+| macOS / Linux / 其他操作系统 | ⚠️ 仅跨平台开发支持（交叉编译） | [.NET 10 SDK](https://get.dot.net/10) |
 
-若属于轻度使用，您需要：
-1、以适当的形式给出署名。
-2、不得将您的内容与 PCL 混淆，或暗示您的内容与 PCL 有关。
- 　例如：您的内容不得使用 Potato Craft Launcher、PCL 手机版 等会造成混淆或暗示这与 PCL 有关的名称。
+**✅ 完整支持**：尽可能提供一切相关支持，但必须确保启动器为最新版本。
 
-二、重度使用
+**⚠️ 理论能跑，酌情提供社区支持**：PCL CE 应该可以在这些平台上运行，但不保证功能完全可用。你可能需要升级到完整支持的系统版本以获得进一步社区技术支持。
 
-若不符合轻度使用的情形，即为重度使用。
-其常见情形例如：
-· 基于本存储库进行修改。
-· 参考存储库中较大量的内容，以制作或重新实现 PCL 的部分实质功能（例如启动或下载 Java 版 Minecraft，下载或管理 Mod 等）。
+**❌ 不支持**：PCL CE 在这些平台的可用性较低，甚至压根打不开。请升级操作系统以使用 PCL CE。
 
-若属于重度使用，您需要：
-1、明确表示您的内容是第三方基于 PCL 独立进行二次创作的产物。
-2、您的内容的名称必须以 Plain Craft Launcher (PCL) 开头，并在其后添加足以表现其由第三方修改的后缀。
- 　允许的示例：PCL 某服务器魔改版、PCL PR Collection、PCL (XX Bug Fix)、PCL XXX修改版。
- 　禁止的示例：PCL 某服务器特供版（暗示由官方提供）、PCL 3、PCL 手机版、PCL++、PCL Pro（这像是官方的后续作品）。
-3、在关于页面的首位给出龙腾猫跃的署名及对应的赞助链接，公开源代码，且继续使用本文件作为指南（可参考 CC BY-SA 协议）。
-4、软件若有 Minecraft 启动功能，则应实现与 McLaunchPrecheck 函数一致（或更激进）的 Minecraft 正版购买劝导与赞助劝导。
-5、软件在 Windows 系统上运行时，不应有与 PCL 的赞助解锁功能类似的功能或表现。
- 　例如：界面的主要色相必须为蓝色（即使没有修改功能，改为其他色相也和需要赞助解锁的主题功能类似）。
+**⚠️ 仅跨平台开发支持（交叉编译）**：PCL CE 的源代码可以在 macOS 与 Linux 平台编译，但无法直接运行。作为开发者，你可以在这些平台上进行开发，然后将编译产物转移到 Windows 系统测试。
 
-————————————————————————————————————
+**注**：    
+社区仅对最新版本的启动器提供支持。    
+取决于部分问题的特殊性（如系统不完整），有时你仍然必须升级操作系统以继续获得支持。    
+PCL CE 始终建议使用最新版本的操作系统以获得最佳体验。    
+你仍然可以尝试在不受支持的系统上使用 PCL CE，但可能会遇到很多额外问题。
 
-说人话的备注：
+## 🔒 许可证
 
-这些规则主要是为了阻止恶意的使用、倒卖和 “山寨版” 的出现，常规、善意的使用都没啥问题的，放心吧！
+- `Plain Craft Launcher 2/` 使用 [自定义许可证](https://github.com/PCL-Community/PCL-CE/blob/dev/Plain%20Craft%20Launcher%202/LICENCE)
+- `其余所有目录` 使用 [Apache License 2.0](https://github.com/PCL-Community/PCL-CE/blob/dev/LICENSE)
 
-如果你只是参考了一小段代码，署个名就行啦，不用担心。
-如果对具体细节有疑问，或是希望修改这些规则，欢迎在 https://github.com/Meloong-Git/PCL/discussions/new?category=%E6%8F%90%E9%97%AE 发帖！
+## 🌟 统计数据
+![Alt](https://repobeats.axiom.co/api/embed/3e46296e6e3a134991a783480fd2f62723bb0353.svg "Repobeats analytics image")
 
-多谢大家啦！
-## 使用说明书
-1.版本说明：0.19_beta版本就是第一个版本，除了它以外的所有，都会有源代码集成于与项目同个压缩包，带beta字样的文件可能有严重的bug，没有就是正式版
-2.所有的.jar文件都要重命名为server
-## 有错误提示是正常的，有bug或者建议请反馈
-## 对了！！目前请不要使用反馈，它会交给PCLCE官方，请不要使用更新，它会更新原版PCLCE，可能功能失去作用
+[![Star History Chart](https://api.star-history.com/svg?repos=PCL-Community/PCL-CE&type=Date)](https://www.star-history.com/#PCL-Community/PCL-CE&Date)
 
+**此页浏览量**（总计 / 今日）：[![Hits](https://hits.zkitefly.eu.org/?tag=https://github.com/PCL-Community/PCL-CE)](https://hits.zkitefly.eu.org/?tag=https://github.com/PCL-Community/PCL-CE&web=true)
+## ❤️ 贡献者
+
+[![](https://contrib.rocks/image?repo=PCL-Community/PCL-CE)](https://github.com/PCL-Community/PCL-CE/graphs/contributors)
